@@ -37,9 +37,11 @@ public class integritat {
                     System.out.println("Escriu missatge 1");
                     String missatge1 = sc.nextLine();
                     String hash1 = getHash(missatge1);
+                    System.out.println(hash1);
                     System.out.println("Escriu missatge 2");
                     String missatge2 = sc.nextLine();
                     String hash2 = getHash(missatge2);
+                    System.out.println(hash2);
                     if(hash1.equals(hash2)) {
                         System.out.println("El hash coincideix per tant el missatge és el mateix");
                     }else {
